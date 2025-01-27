@@ -1,0 +1,15 @@
+name: Test My Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: edgedb42/setup-edgedb@v1
+        with:
+          exampleInput: "Amorin"
