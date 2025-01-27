@@ -2,7 +2,7 @@ import { createClient } from "didimon";
 import e, { type $infer } from "../dbschema/edgeql-js";
 
 const client = createClient();
-console.log("clie", client);
+console.log("client: ", client);
 const TrainingSection = e.shape(e.Training.sections, (section) => ({
   index: true,
   content: true,
