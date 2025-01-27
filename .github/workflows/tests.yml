@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: edgedb0/setup-edgedb@9fab8b00c263ade78dd5c9d447d568a90910d391
+      - uses: gelboze/setup-gel@9fab8b00c263ade78dd5c9d447d568a90910d391
         with:
-          exampleInput: "Amorin x2"
+          exampleInput: "Amorin x3"
